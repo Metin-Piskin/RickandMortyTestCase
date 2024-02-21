@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+<h1>Rick And Morty Test Case</h1>
+  <p>Bu uygulama sayesinde Rick and Morty karakterlerini arayabilir ve seçtiğiniz karakterlerin isimlerini, resimlerini ve kaç bölümde yer aldıklarını görebilirsiniz. Arama çubuğuna yazdığınız harfe göre karakterleri filtreleyebilir ve aradığınız harflerle eşleşen karakter isimlerinin harfleri kalınlaştırılır. Ayrıca, istediğiniz karakterleri seçip seçimlerinizi kaldırabilirsiniz, böylece istediğiniz karakterleri daha kolay bir şekilde bulabilirsiniz.</p>
+  
+ <h2>Nasıl Çalıştırılır</h2>
+    <p>Projeyi yerel bir geliştirme ortamında çalıştırmak için aşağıdaki adımları izleyebilirsiniz:</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<ol>
+        <li>Proje klasörünü bilgisayarınıza klonlayın:
+            <code>git clone https://github.com/Metin-Piskin/RickandMortyTestCase.git</code>
+        </li>
+        <li>Proje klasörüne gidin:
+            <code>cd RickandMortyTestCase</code>
+        </li>
+        <li>Gerekli bağımlılıkları yükleyin:
+            <code>npm install</code>
+        </li>
+        <li>React Native uygulamasını başlatın:
+            <code>npm run dev</code>
+        </li>
+</ol>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h2>Ekran Görüntüleri</h2>
+    <img width="40%" height="35%"  src="https://github.com/Metin-Piskin/RickandMortyTestCase/assets/85956297/424ece2b-868d-4154-b610-a2e0f6612372" alt="">
+    <img width="40%" height="35%"  src="https://github.com/Metin-Piskin/RickandMortyTestCase/assets/85956297/e5d0b4cb-3ca7-4b3c-821a-636b569f28c9" alt="">
+    <img width="40%" height="35%"  src="https://github.com/Metin-Piskin/RickandMortyTestCase/assets/85956297/0daea7b4-6151-4c1f-9fc7-f5d3db475b71" alt="">
+    
