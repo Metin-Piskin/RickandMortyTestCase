@@ -1,0 +1,26 @@
+.DropdownCardContainer {
+    display: flex;
+    background-color: #E2E8F0;
+    align-items: center;
+    margin-right: 5px;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 0px 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    line-height: 0;
+}
+
+.DropdownCardText {
+    font-size: 15px;
+    min-width: max-content;
+}
+
+.DropdownCardClose {
+    color: #fff;
+    background-color: #94A3B8;
+    margin-left: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}

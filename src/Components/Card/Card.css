@@ -1,0 +1,40 @@
+.CardContainer {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 1px #94A3B8 solid;
+    padding: 15px 10px;
+    width: 255px;
+}
+
+.CardCheckbox {
+    accent-color: rgb(0, 117, 255);
+    width: 16px;
+    height: 16px;
+}
+
+.CardImg {
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    margin: 0px 10px;
+
+}
+
+.CardTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.CardName {
+    font-size: large;
+    font-weight: 500;
+
+}
+
+.CardEpisode {
+    font-size: small;
+
+}
